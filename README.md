@@ -1,5 +1,3 @@
-# CodeAlpha_speech_emotion_recognition
-
 📦 Speech Emotion Recognition (SER)
 Code Alpha Internship – Task 2
 
@@ -36,7 +34,7 @@ Edit
 ├── features/              # Extracted MFCC / spectrogram features
 ├── models/                # Saved models (H5 / PB files)
 ├── notebooks/             # Jupyter notebooks for EDA and experiments
-├── train.py                   # Python source code 
+├── Main.py                   # Python source code 
 ├── requirements.txt
 └── README.md
 📊 Features
@@ -64,30 +62,16 @@ Edit
 pip install -r requirements.txt
 3️⃣ Download datasets & extract into data/ folder.
 
-4️⃣ Run feature extraction:
 
 bash
 Copy
 Edit
-python src/feature_extraction.py
-5️⃣ Train the model:
-
-bash
-Copy
-Edit
-python src/train.py
+python src/Main.py
 6️⃣ Evaluate & test:
 
-bash
-Copy
-Edit
-python src/model.py
-📈 Results
-Achieved validation accuracy: XX% (update based on your training).
-Check notebooks/ for detailed visualizations.
 
 ✏️ Contribution & Credits
-Built by: Utkarsh Tiwari (or your name)
+Built by: Utkarsh Tiwari 
 
 Internship: Code Alpha (Task 2)
 
